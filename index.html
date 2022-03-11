@@ -7,13 +7,16 @@
     <title>Document</title>
     <style>
       body {
-        background: url(./images/techno.gif);
+        /*background: url(./images/techno.gif);
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: cover;
+        background-size: cover;*/
+        background-color:rgb(23,23,23);
         border: 1px solid black;
         margin: 0;
         height: 100vh;
+        position:relative;
+        text-align:center;
       }
       .neon {
         color: #fff;
@@ -21,9 +24,13 @@
           0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
       }
       .mplayer {
-        padding-top: 200px;
-        width: 24%;
+        text-align:center;
         margin: 0 auto;
+        position:absolute;
+        left:50%;
+        top:50%;
+        transform:translate(-50%,-50%);
+        width:100%;
       }
       img {
         max-width: 100%;
@@ -70,7 +77,7 @@
         >Listen more!!</a
       >
     </header>
-    <div class="mplayer">
+    <!--<div class="mplayer">
       <img src="./images/icon.png" alt="mplayer icon" />
       <!-- audio controls>
         <source src="https://coolstuff.website/cooltune.mp3" type="audio/mp3" />
@@ -79,26 +86,26 @@
           <a href="viper.mp3">link to the audio</a> instead.
         </p>
       </audio> -->
-    </div>
+    </div>-->
     <!-- BEGINS: AUTO-GENERATED MUSES RADIO PLAYER CODE -->
+<!-- BEGINS: AUTO-GENERATED MUSES RADIO PLAYER CODE -->
 <script type="text/javascript" src="https://hosted.muses.org/mrp.js"></script>
 <script type="text/javascript">
 MRP.insert({
 'url':'https://coolstuff.website/cooltune.mp3',
-'lang':'en',
 'codec':'mp3',
-'volume':60,
+'volume':100,
 'autoplay':false,
-'forceHTML5':true,
 'jsevents':true,
 'buffering':0,
-'title':'mradio',
+'title':'coolradio',
 'wmode':'transparent',
-'skin':'radiovoz',
-'width':220,
-'height':69
+'skin':'simple-blue',
+'width':300,
+'height':122
 });
 </script>
+<!-- ENDS: AUTO-GENERATED MUSES RADIO PLAYER CODE -->
 <!-- ENDS: AUTO-GENERATED MUSES RADIO PLAYER CODE -->
   </body>
 </html>
